@@ -1,0 +1,158 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+div.battery-wrapper {
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: blue solid .1rem;
+    margin: auto;
+}
+
+div.battery-tip {
+    flex-basis: 5%;
+    background-color: black;
+    width: 25%;
+    margin: auto;
+}
+
+div.battery-body {
+    flex-basis: 95%;
+    border: greenyellow solid .1rem;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+}
+
+div.power-lost {
+    animation: drain-gain 30s;
+    background-color: red;
+}
+
+div.battery-action {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Animations */
+@keyframes drain-gain {
+
+    0% {
+        flex-basis: 0%;
+    }
+
+    1% {
+        flex-basis: 1%;
+    }
+
+    2% {
+        flex-basis: 2%;
+    }
+
+    5% {
+        flex-basis: 5%;
+    }
+
+    10% {
+        flex-basis: 10%;
+    }
+
+    15% {
+        flex-basis: 15%;
+    }
+
+    20% {
+        flex-basis: 20%;
+    }
+
+    25% {
+        flex-basis: 25%;
+    }
+
+    30% {
+        flex-basis: 30%;
+    }
+
+    35% {
+        flex-basis: 35%;
+    }
+
+    40% {
+        flex-basis: 40%;
+    }
+
+    45% {
+        flex-basis: 45%;
+    }
+
+    50% {
+        flex-basis: 50%;
+    }
+
+    55% {
+        flex-basis: 55%;
+    }
+
+    60% {
+        flex-basis: 60%;
+    }
+
+    65% {
+        flex-basis: 65%;
+    }
+
+    70% {
+        flex-basis: 70%;
+    }
+
+    75% {
+        flex-basis: 75%;
+    }
+
+    80% {
+        flex-basis: 80%;
+    }
+
+    85% {
+        flex-basis: 85%;
+    }
+
+    90% {
+        flex-basis: 90%;
+    }
+
+    95% {
+        flex-basis: 95%;
+    }
+
+    100% {
+        flex-basis: 100%;
+    }
+
+}
