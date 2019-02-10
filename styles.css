@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
 
 a {
     text-decoration: none;
@@ -12,57 +19,88 @@ header {
     min-height: 8vh;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 1px 20px 10px yellowgreen;
+    animation: glow 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
-
+header h1{
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+}
+section.glow-background{
+    height: 92vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.glow-background div.twenty{
+    flex-basis: 20%;
+    box-shadow: 0px 1px 20px 10px yellowgreen;
+    animation: glow 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 5s;
+}
+section.glow-background div.thrity{
+    flex-basis: 30%;
+    height: 20%;
+    box-shadow: 0px 1px 20px 10px yellowgreen;
+    animation: glow 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 5s;
+}
 div.battery-wrapper {
-    height: 70vh;
+    height: 60vh;
     width: 30vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: blue solid .1rem;
     margin: auto;
+    position: absolute;
+    top: 30vh;
+    right: 35vw;
+    z-index: 2;
 }
 
 div.battery-tip {
     flex-basis: 5%;
-    background-color: black;
+    background-color: darkslategray;
+    border: greenyellow solid .2rem;
     width: 25%;
     margin: auto;
+    box-shadow: 0px 1px 20px 10px yellowgreen;
+    animation: glow 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 5s;
 }
 
 div.battery-body {
     flex-basis: 95%;
-    border: greenyellow solid .1rem;
+    border: greenyellow solid .5rem;
     background-color: greenyellow;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 1px 20px 10px yellowgreen;
+    animation: glow 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 5s;
 }
 
 div.power-lost {
     animation: drain-gain 30s;
-    background-color: red;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: rgb(35, 39, 39);
 }
-
-div.battery-action {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
 
 
 /* Animations */
 @keyframes drain-gain {
-
+    /* Add more frammes ~ 0% -100% */
     0% {
         flex-basis: 0%;
     }
@@ -73,6 +111,9 @@ div.battery-action {
 
     2% {
         flex-basis: 2%;
+    }
+    3% {
+        flex-basis: 3%;
     }
 
     5% {
@@ -155,4 +196,44 @@ div.battery-action {
         flex-basis: 100%;
     }
 
+}
+
+@keyframes glow{
+     /* Add more frammes 0%-100% */
+    0%{
+        box-shadow: 0px 1px 0px 0px yellowgreen;
+    }
+    1%{
+        box-shadow: 0px 1px .2px .1px yellowgreen;
+    }
+    2%{
+        box-shadow: 0px 1px .4px .2px yellowgreen;
+
+    }
+    3%{
+        box-shadow: 0px 1px .6px .3px yellowgreen;
+    }
+    4%{
+        box-shadow: 0px 1px .8px .4px yellowgreen;
+    }
+    5%{
+        box-shadow: 0px 1px 1px .5px yellowgreen;
+    }
+    6%{}
+    7%{}
+    8%{}
+    9%{}
+    10%{}
+    25%{
+        box-shadow: 0px 1px 5px 2.5px yellowgreen;
+    }
+    50%{
+        box-shadow: 0px 1px 10px 5px yellowgreen;
+    }
+    75%{
+        box-shadow: 0px 1px 15px 7.5px yellowgreen;
+    }
+    100%{
+        box-shadow: 0px 1px 20px 10px yellowgreen;
+    }
 }
