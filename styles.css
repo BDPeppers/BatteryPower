@@ -24,7 +24,7 @@ header {
     box-shadow: 0px 1px 20px 10px yellowgreen;
     width: 100%;
     text-align: center;
-    animation: glow 30s;
+    animation: glow 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
@@ -58,13 +58,15 @@ section.glow-background div.twenty {
 }
 
 section.glow-background div.twenty div.resize {
-    animation: resize 30s;
+    animation: resize 25s, glow 25s;
     background-color: greenyellow;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-delay: 5s;
     width: 100%;
     height: 100%;
+    box-shadow: inset 1px -1px 5px 2px yellowgreen;
+   
 }
 
 /* Battery */
@@ -88,7 +90,7 @@ div.battery-tip {
     width: 25%;
     margin: auto;
     box-shadow: 0px 1px 20px 10px yellowgreen;
-    animation: glow 30s;
+    animation: glow 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-delay: 5s;
@@ -108,7 +110,7 @@ div.battery-body {
 }
 
 div.power-lost {
-    animation: drain-gain 30s;
+    animation: drain-gain 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-delay: 5s;
@@ -511,28 +513,504 @@ div.power-lost {
         height: 0%;
         border-radius: 0%;
     }
-
+    1%{
+        width: 1%;
+        height: 1%;
+        border-radius: 1%;
+    }
+    2%{
+        width: 2%;
+        height: 2%;
+        border-radius: 99%;
+    }
+    3%{
+        width: 3%;
+        height: 3%;
+        border-radius: 98%;
+    }
+    4%{
+        width: 4%;
+        height: 4%;
+        border-radius: 97%;
+    }
+    5%{
+        width: 5%;
+        height: 5%;
+        border-radius: 96%;
+    }
+    6%{
+        width: 6%;
+        height: 6%;
+        border-radius: 95%;
+    }
+    7%{
+        width: 7%;
+        height: 7%;
+        border-radius: 94%;
+    }
+    8%{
+        width: 8%;
+        height: 8%;
+        border-radius: 93%;
+    }
+    9%{
+        width: 9%;
+        height: 9%;
+        border-radius: 92%;
+    }
+    10%{
+        width: 10%;
+        height: 10%;
+        border-radius: 91%;
+    }
+    11%{
+        width: 11%;
+        height: 11%;
+        border-radius: 90%;
+    }
+    12%{
+        width: 12%;
+        height: 12%;
+        border-radius: 89%;
+    }
+    13%{
+        width: 13%;
+        height: 13%;
+        border-radius: 88%;
+    }
+    14%{
+        width: 14%;
+        height: 14%;
+        border-radius: 87%;
+    }
+    15%{
+        width: 15%;
+        height: 15%;
+        border-radius: 86%;
+    }
+    16%{
+        width: 16%;
+        height: 16%;
+        border-radius: 85%;
+    }
+    17%{
+        width: 17%;
+        height: 17%;
+        border-radius: 84%;
+    }
+    18%{
+        width: 18%;
+        height: 18%;
+        border-radius: 83%;
+    }
+    19%{
+        width: 19%;
+        height: 19%;
+        border-radius: 82%;
+    }
+    20%{
+        width: 20%;
+        height: 20%;
+        border-radius: 81%;
+    }
+    21%{
+        width: 21%;
+        height: 21%;
+        border-radius: 80%;
+    }
+    22%{
+        width: 22%;
+        height: 22%;
+        border-radius: 79%;
+    }
+    23%{
+        width: 23%;
+        height: 23%;
+        border-radius: 78%;
+    }
+    24%{
+        width: 24%;
+        height: 24%;
+        border-radius: 77%;
+    }
     25% {
         width: 25%;
         height: 25%;
-        border-radius: 25%;
+        border-radius: 76%;
     }
-
+    26%{
+        width: 26%;
+        height: 26%;
+        border-radius: 75%;
+    }
+    27%{
+        width: 27%;
+        height: 27%;
+        border-radius: 74%;
+    }
+    28%{
+        width: 28%;
+        height: 28%;
+        border-radius: 73%;
+    }
+    29%{
+        width: 29%;
+        height: 29%;
+        border-radius: 72%;
+    }
+    30%{
+        width: 30%;
+        height: 30%;
+        border-radius: 71%;
+    }
+    31%{
+        width: 31%;
+        height: 31%;
+        border-radius: 70%;
+    }
+    32%{
+        width: 32%;
+        height: 32%;
+        border-radius: 69%;
+    }
+    33%{
+        width: 33%;
+        height: 33%;
+        border-radius: 68%;
+    }
+    34%{
+        width: 34%;
+        height: 34%;
+        border-radius: 67%;
+    }
+    35%{
+        width: 35%;
+        height: 35%;
+        border-radius: 66%;
+    }
+    36%{
+        width: 36%;
+        height: 36%;
+        border-radius: 65%;
+    }
+    37%{
+        width: 37%;
+        height: 37%;
+        border-radius: 64%;
+    }
+    38%{
+        width: 38%;
+        height: 38%;
+        border-radius: 63%;
+    }
+    39%{
+        width: 39%;
+        height: 39%;
+        border-radius: 62%;
+    }
+    40%{
+        width: 40%;
+        height: 40%;
+        border-radius: 61%;
+    }
+    41%{
+        width: 41%;
+        height: 41%;
+        border-radius: 60%;
+    }
+    42%{
+        width: 42%;
+        height: 42%;
+        border-radius: 59%;
+    }
+    43%{
+        width: 43%;
+        height: 43%;
+        border-radius: 58%;
+    }
+    44%{
+        width: 44%;
+        height: 44%;
+        border-radius: 57%;
+    }
+    45%{
+        width: 45%;
+        height: 45%;
+        border-radius: 56%;
+    }
+    46%{
+        width: 46%;
+        height: 46%;
+        border-radius: 55%;
+    }
+    47%{
+        width: 47%;
+        height: 47%;
+        border-radius: 54%;
+    }
+    48%{
+        width: 48%;
+        height: 48%;
+        border-radius: 53%;
+    }
+    49%{
+        width: 49%;
+        height: 49%;
+        border-radius: 52%;
+    }
     50% {
         width: 50%;
         height: 50%;
+        border-radius: 51%;
+    }
+    51% {
+        width: 51%;
+        height: 51%;
         border-radius: 50%;
     }
-
+    52%{
+        width: 52%;
+        height: 52%;
+        border-radius: 49%;
+    }
+    53%{
+        width: 53%;
+        height: 53%;
+        border-radius: 48%;
+    }
+    54%{
+        width: 54%;
+        height: 54%;
+        border-radius: 47%;
+    }
+    55%{
+        width: 55%;
+        height: 55%;
+        border-radius: 46%;
+    }
+    56%{
+        width: 56%;
+        height: 56%;
+        border-radius: 45%;
+    }
+    57%{
+        width: 57%;
+        height: 57%;
+        border-radius: 44%;
+    }
+    58%{
+        width: 58%;
+        height: 58%;
+        border-radius: 43%;
+    }
+    59%{
+        width: 59%;
+        height: 59%;
+        border-radius: 42%;
+    }
+    60%{
+        width: 60%;
+        height: 60%;
+        border-radius: 41%;
+    }
+    61%{
+        width: 61%;
+        height: 61%;
+        border-radius: 40%;
+    }
+    62%{
+        width: 62%;
+        height: 62%;
+        border-radius: 39%;
+    }
+    63%{
+        width: 63%;
+        height: 63%;
+        border-radius: 38%;
+    }
+    64%{
+        width: 64%;
+        height: 64%;
+        border-radius: 37%;
+    }
+    65%{
+        width: 65%;
+        height: 65%;
+        border-radius: 36%;
+    }
+    66%{
+        width: 66%;
+        height: 66%;
+        border-radius: 35%;
+    }
+    67%{
+        width: 67%;
+        height: 67%;
+        border-radius: 34%;
+    }
+    68%{
+        width: 68%;
+        height: 68%;
+        border-radius: 33%;
+    }
+    69%{
+        width: 69%;
+        height: 69%;
+        border-radius: 32%;
+    }
+    70%{
+        width: 70%;
+        height: 70%;
+        border-radius: 31%;
+    }
+    71%{
+        width: 71%;
+        height: 71%;
+        border-radius: 30%;
+    }
+    72%{
+        width: 72%;
+        height: 72%;
+        border-radius: 29%;
+    }
+    73%{
+        width: 73%;
+        height: 73%;
+        border-radius: 28%;
+    }
+    74%{
+        width: 74%;
+        height: 74%;
+        border-radius: 27%;
+    }
     75% {
         width: 75%;
         height: 75%;
-        border-radius: 75%;
+        border-radius: 26%;
     }
-
+    76%{
+        width: 76%;
+        height: 76%;
+        border-radius: 25%;
+    }
+    77%{
+        width: 77%;
+        height: 77%;
+        border-radius: 24%;
+    }
+    78%{
+        width: 78%;
+        height: 78%;
+        border-radius: 23%;
+    }
+    79%{
+        width: 79%;
+        height: 79%;
+        border-radius: 22%;
+    }
+    80%{
+        width: 80%;
+        height: 80%;
+        border-radius: 21%;
+    }
+    81%{
+        width: 81%;
+        height: 81%;
+        border-radius: 20%;
+    }
+    82%{
+        width: 82%;
+        height: 82%;
+        border-radius: 19%;
+    }
+    83%{
+        width: 83%;
+        height: 83%;
+        border-radius: 18%;
+    }
+    84%{
+        width: 84%;
+        height: 84%;
+        border-radius: 17%;
+    }
+    85%{
+        width: 85%;
+        height: 85%;
+        border-radius: 16%;
+    }
+    86%{
+        width: 86%;
+        height: 86%;
+        border-radius: 15%;
+    }
+    87%{
+        width: 87%;
+        height: 87%;
+        border-radius: 14%;
+    }
+    88%{
+        width: 88%;
+        height: 88%;
+        border-radius: 13%;
+    }
+    89%{
+        width: 89%;
+        height: 89%;
+        border-radius: 12%;
+    }
+    90%{
+        width: 90%;
+        height: 90%;
+        border-radius: 11%;
+    }
+    91%{
+        width: 91%;
+        height: 91%;
+        border-radius: 10%;
+    }
+    92%{
+        width: 92%;
+        height: 92%;
+        border-radius: 9%;
+    }
+    93%{
+        width: 93%;
+        height: 93%;
+        border-radius: 8%;
+    }
+    94%{
+        width: 94%;
+        height: 94%;
+        border-radius: 7%;
+    }
+    95%{
+        width: 95%;
+        height: 95%;
+        border-radius: 6%;
+    }
+    96%{
+        width: 96%;
+        height: 96%;
+        border-radius: 5%;
+    }
+    97%{
+        width: 97%;
+        height: 97%;
+        border-radius: 4%;
+    }
+    98%{
+        width: 98%;
+        height: 98%;
+        border-radius: 3%;
+    }
+    99%{
+        width: 99%;
+        height: 99%;
+        border-radius: 1%;
+    }
     100% {
         width: 100%;
         height: 100%;
-        border-radius: 100%;
+        border-radius: 0;
     }
 }
