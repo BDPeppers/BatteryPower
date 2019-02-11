@@ -224,7 +224,7 @@ div.power-lost {
     30% {
         flex-basis: 30%;
     }
-    31% 
+    31% {
         flex-basis: 31%;
     }
 
@@ -332,7 +332,6 @@ div.power-lost {
     64% {
         flex-basis: 64%;
     }
-
     65% {
         flex-basis: 65%;
     }
