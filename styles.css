@@ -436,127 +436,33 @@ div.power-lost {
     0% {
         box-shadow: 0px 1px 0px 0px yellowgreen;
     }
-
-    1% {
-        box-shadow: 0px 1px .2px .1px yellowgreen;
+    10% {
+        box-shadow: 0px 1px 2px 1px yellowgreen;
     }
-
-    2% {
-        box-shadow: 0px 1px .4px .2px yellowgreen;
-
+    20% {
+        box-shadow: 0px 1px 4px 2px yellowgreen;
     }
-
-    3% {
-        box-shadow: 0px 1px .6px .3px yellowgreen;
+    30% {
+        box-shadow: 0px 1px 6px 3px yellowgreen;
     }
-
-    4% {
-        box-shadow: 0px 1px .8px .4px yellowgreen;
+    40% {
+        box-shadow: 0px 1px 8px 4px yellowgreen;
     }
-
-    5% {
-        box-shadow: 0px 1px 1px .5px yellowgreen;
-    }
-    6% {}
-    7% {}
-    8% {}
-    9% {}
-    10% {}
-    11% {}
-    12% {}
-    13% {}
-    14% {}
-    15% {}
-    16% {}
-    17% {}
-    18% {}
-    19% {}
-    20% {}
-    21% {}
-    22% {}
-    23% {}
-    24% {}
-    25% {
-        box-shadow: 0px 1px 5px 2.5px yellowgreen;
-    }
-    26% {}
-    27% {}
-    28% {}
-    29% {}
-    30% {}
-    31% {}
-    32% {}
-    33% {}
-    34% {}
-    35% {}
-    36% {}
-    37% {}
-    38% {}
-    39% {}
-    40% {}
-    41% {}
-    42% {}
-    43% {}
-    44% {}
-    45% {}
-    46% {}
-    47% {}
-    48% {}
-    49% {}
     50% {
         box-shadow: 0px 1px 10px 5px yellowgreen;
     }
-    51% {}
-    52% {}
-    53% {}
-    54% {}
-    55% {}
-    56% {}
-    57% {}
-    58% {}
-    59% {}
-    60% {}
-    61% {}
-    62% {}
-    63% {}
-    64% {}
-    65% {}
-    66% {}
-    67% {}
-    68% {}
-    69% {}
-    70% {}
-    71% {}
-    72% {}
-    73% {}
-    74% {}
-    75% {
-        box-shadow: 0px 1px 15px 7.5px yellowgreen;
+    60% {
+        box-shadow: 0px 1px 12px 6px yellowgreen;
     }
-    76% {}
-    77% {}
-    78% {}
-    79% {}
-    80% {}
-    81% {}
-    82% {}
-    83% {}
-    84% {}
-    85% {}
-    86% {}
-    87% {}
-    88% {}
-    89% {}
-    90% {}
-    91% {}
-    92% {}
-    93% {}
-    94% {}
-    95% {}
-    96% {}
-    97% {}
-    98% {}
-    99% {}
+    70% {
+        box-shadow: 0px 1px 14px 7px yellowgreen;
+    }
+    80% {
+        box-shadow: 0px 1px 16px 8px yellowgreen;
+    }
+    90% {
+        box-shadow: 0px 1px 18px 9px yellowgreen;
+    }
     100% {
         box-shadow: 0px 1px 20px 10px yellowgreen;
     }
