@@ -103,7 +103,7 @@ div.battery-body {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 1px 20px 10px yellowgreen;
-    animation: glow 25s;
+    animation: glow 25s, power-level 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-delay: 5s;
@@ -426,6 +426,19 @@ div.power-lost {
     }
     100% {
         flex-basis: 100%;
+    }
+
+}
+
+@keyframes power-level{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: orange;
+    }
+    85%{
+        background-color: greenyellow;
     }
 
 }
