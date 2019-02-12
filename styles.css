@@ -78,7 +78,7 @@ div.battery-wrapper {
     flex-direction: column;
     margin: auto;
     position: absolute;
-    top: 30vh;
+    top: 35vh;
     right: 35vw;
     z-index: 2;
 }
@@ -126,23 +126,18 @@ div.power-lost {
     0% {
         flex-basis: 0%;
     }
-
     1% {
         flex-basis: 1%;
     }
-
     2% {
         flex-basis: 2%;
     }
-
     3% {
         flex-basis: 3%;
     }
-
     4% {
         flex-basis: 4%;
     }
-
     5% {
         flex-basis: 5%;
     }
@@ -158,11 +153,9 @@ div.power-lost {
     9% {
         flex-basis: 9%;
     }
-
     10% {
         flex-basis: 10%;
     }
-
     11% {
         flex-basis: 11%;
     }
@@ -190,7 +183,6 @@ div.power-lost {
     19% {
         flex-basis: 19%;
     }
-
     20% {
         flex-basis: 20%;
     }
@@ -206,7 +198,6 @@ div.power-lost {
     24% {
         flex-basis: 24%;
     }
- 
     25% {
         flex-basis: 25%;
     }
@@ -229,7 +220,6 @@ div.power-lost {
     31% {
         flex-basis: 31%;
     }
-
     32% {
         flex-basis: 32%;
     }
@@ -248,7 +238,6 @@ div.power-lost {
     37% {
         flex-basis: 37%;
     }
-
     38% {
         flex-basis: 38%;
     }
@@ -258,7 +247,6 @@ div.power-lost {
     40% {
         flex-basis: 40%;
     }
-
     41% {
         flex-basis: 41%;
     }
@@ -286,7 +274,6 @@ div.power-lost {
     49% {
         flex-basis: 49%;
     }
-
     50% {
         flex-basis: 50%;
     }
@@ -302,7 +289,6 @@ div.power-lost {
     54% {
         flex-basis: 54%;
     }
-
     55% {
         flex-basis: 55%;
     }
@@ -318,7 +304,6 @@ div.power-lost {
     59% {
         flex-basis: 59%;
     }
-
     60% {
         flex-basis: 60%;
     }
@@ -349,7 +334,6 @@ div.power-lost {
     69% {
         flex-basis: 69%;
     }
-
     70% {
         flex-basis: 70%;
     }
@@ -365,7 +349,6 @@ div.power-lost {
     74% {
         flex-basis: 74%;
     }
-
     75% {
         flex-basis: 75%;
     }
@@ -381,7 +364,6 @@ div.power-lost {
     79% {
         flex-basis: 79%;
     }
-
     80% {
         flex-basis: 80%;
     }
@@ -397,7 +379,6 @@ div.power-lost {
     84% {
         flex-basis: 84%;
     }
-
     85% {
         flex-basis: 85%;
     }
@@ -413,7 +394,6 @@ div.power-lost {
     89% {
         flex-basis: 89%;
     }
-
     90% {
         flex-basis: 90%;
     }
@@ -477,15 +457,10 @@ div.power-lost {
     5% {
         box-shadow: 0px 1px 1px .5px yellowgreen;
     }
-
     6% {}
-
     7% {}
-
     8% {}
-
     9% {}
-
     10% {}
     11% {}
     12% {}
@@ -598,7 +573,7 @@ div.power-lost {
     1%{
         width: 1%;
         height: 1%;
-        border-radius: 1%;
+        border-radius: 100%;
     }
     2%{
         width: 2%;
